@@ -7,3 +7,15 @@ for (var i = 0; i < 10; i ++) {
 	}
 	$('#grid').append(col);
 }
+
+$(document).ready(
+	() => {
+		$('[data-tilt]').tilt({
+			maxTilt: 10,
+			scale: 1.2,
+			speed: 2000,
+			glare: true,
+			maxGlare: 0.5
+		});
+	}
+);

@@ -9,3 +9,13 @@ html, body, #grid {
 	position: relative;
 	overflow: hidden;
 }
+
+.col {
+	display: inline-block;
+}
+
+.tile {
+	/* background-color: green; */
+	/* display: block; */
+	position: relative;
+}

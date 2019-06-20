@@ -1,3 +1,6 @@
+// Snippet from https://codepen.io/Halfhappy/pen/DmxuB
+const random_color = () => '#'+ ('000000' + Math.floor(Math.random()*16777215).toString(16)).slice(-6);
+
 for (var i = 0; i < 10; i ++) {
 	col = $('<div>').css('width', '10%');
 	for (var j = 0; j < 10; j ++) {
